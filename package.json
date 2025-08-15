@@ -1,0 +1,26 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "telegram bot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriancubillos/telegrambot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "bootstrap",
+    "react",
+    "node"
+  ],
+  "author": "Edgar Cubillos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriancubillos/telegrambot/issues"
+  },
+  "homepage": "https://github.com/adriancubillos/telegrambot#readme"
+}
