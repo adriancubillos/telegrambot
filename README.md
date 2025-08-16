@@ -1,9 +1,12 @@
 <div align="center">  
   <div>
     <!-- <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="next.js" /> -->
-    <img src="https://img.shields.io/badge/Telegram-white?style=for-the-badge&logoColor=white&logo=telegram&color=26A5E4" alt="telegram" />
-    <img src="https://img.shields.io/badge/React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/bootstrap-white?style=for-the-badge&logo=Bootstrap&logoColor=7952B3" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/Telegram-white?style=social&logoColor=white&logo=telegram&color=26A5E4" alt="telegram" />
+    <img src="https://img.shields.io/badge/React_JS-black?style=social&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/bootstrap-white?style=social&logo=Bootstrap&logoColor=7952B3" alt="Bootstrap" />
+    <img src="https://img.shields.io/badge/Axios-white?style=social&logo=Axios&logoColor=5A29E4" alt="Axios" /> 
+    <img src="https://img.shields.io/badge/Express-black?style=social&logo=express&logoColor=000000" alt="Express"
+    
   </div>
 
   <h3 align="center">Telegram Bot to track Groceries Receipts</h3>
