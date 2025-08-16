@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/React_JS-black?style=social&logo=react&logoColor=61DAFB" alt="react.js" />
     <img src="https://img.shields.io/badge/bootstrap-white?style=social&logo=Bootstrap&logoColor=7952B3" alt="Bootstrap" />
     <img src="https://img.shields.io/badge/Axios-white?style=social&logo=Axios&logoColor=5A29E4" alt="Axios" /> 
-    <img src="https://img.shields.io/badge/Express-black?style=social&logo=express&logoColor=000000" alt="Express"
+    <img src="https://img.shields.io/badge/Express-black?style=social&logo=express&logoColor=000000" alt="Express"/>
   </div>
 
   <h3 align="center">Telegram Bot to track Groceries Receipts</h3>
@@ -66,3 +66,18 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## VSCode extensions used
 
 - ES7+ React/Redux/React-Native snippets v4.4.3
+
+to hook our Telegram bot to our node server we nee to use Ngrok
+When out telegram bot receives messages it calls a POST API from the Telegram server, you can choose which API to call
+that is a task called "set webhook"
+
+As telegtram only calls https api and our local server is on http domain we need Ngrok to bridge this gap.
+
+The Telagram Server will call ngrok and this will redirect the trafic to our local node server
+
+Used postman to set the webkook
+https://api.telegram.org/bot{token}/setWebhook?url={ngrok-URL}
+
+Got to ngrok create account and download for your OS
+to activate simply run
+ngrok http {Node-App-PORT}
